@@ -14,3 +14,6 @@ This is a Summernote working example with Express.js .
 ## Run
   * npm start
   * enter url : 'http://localhost:3000/' on your favorite browser.
+
+## Test
+  * mocha
