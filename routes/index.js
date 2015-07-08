@@ -25,12 +25,12 @@ router.post('/uploadImage', [
 
 /* POST upload html data, save it on public/pages/ */
 router.post('/uploadPage', function(req, res, next) {
-    console.log(req.body.content);
+    //console.log(req.body.content);
     var content = req.body.content;
     var page_path = '/pages/' + uniqname() + '.html';
     fs.writeFile('./public' + page_path, content, function(err) {
         if (err) throw err;
-        console.log('File write completed');
+        //console.log('File write completed');
         res.send(page_path);
     });
 });
