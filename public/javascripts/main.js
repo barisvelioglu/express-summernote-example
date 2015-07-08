@@ -42,7 +42,7 @@ $(document).ready(function() {
             },
             success: function(url) {
                 console.log("server url:", url);
-                // something what you want... 
+                // something what you want...
             }
         });
     });

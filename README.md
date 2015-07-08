@@ -1,5 +1,5 @@
 # express-summernote-example
-This is a Summernote Working Example With Express.
+This is a Summernote working example with Express.js .
 
 ## Features
   * Local image upload (/public/images/)
@@ -10,7 +10,7 @@ This is a Summernote Working Example With Express.
   * npm install
   * cd public
   * bower install
-  
+
 ## Run
   * npm start
   * enter url : 'http://localhost:3000/' on your favorite browser.

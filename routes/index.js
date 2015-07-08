@@ -17,7 +17,7 @@ router.post('/uploadImage', [
     }),
     function(req, res, next) {
         var path = req.files.file.path;
-        console.log(path);
+        //console.log(path);
         path = path.replace(/^public/, '');
         res.send(path);
     }
@@ -33,7 +33,6 @@ router.post('/uploadPage', function(req, res, next) {
         console.log('File write completed');
         res.send(page_path);
     });
-    //res.status(204).end();
 });
 
 // return uniq name
