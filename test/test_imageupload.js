@@ -23,7 +23,7 @@ describe('Express Summernote Test Suite: ', function() {
             .expect(/html/)
             .end(function(err, res) {
                 if (err) return done(err);
-                //console.log(res.text);
+                console.log(res.text);
                 fs.open('./public' + res.text,'r', function(err,stat) {
                     if(err) return done(err);
                     done();
