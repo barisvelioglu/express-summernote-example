@@ -13,6 +13,7 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap3-wysihtml5-bower": "~0.3.3"
+    "bootstrap3-wysihtml5-bower": "~0.3.3",
+    "summernote": "^0.8.1"
   }
 }
