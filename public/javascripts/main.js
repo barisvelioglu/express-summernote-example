@@ -8,8 +8,10 @@ $(document).ready(function() {
 
         focus: true, // set focus to editable area after initializing summernote
         lang: 'ko-KR', // default: 'en-US'
-        onImageUpload: function(files) {
-            uploadImage(files[0]);
+        callbacks: {
+            onImageUpload: function(files) {
+                uploadImage(files[0]);
+            }
         }
     });
 
@@ -33,7 +35,7 @@ $(document).ready(function() {
 
     // save Created html data on server.
     $('#saveButton').click(function() {
-        var content = $('#summernote').code();
+        var content = $('#summernote').summernote('code');
         $.ajax({
             url: '/uploadPage',
             type: 'POST',

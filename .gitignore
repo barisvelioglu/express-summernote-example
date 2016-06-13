@@ -1,4 +1,4 @@
-node_modules
+node_modules/
 public/bower_components/
-public/images/*.*
-public/pages/*.*
+public/images/
+public/pages/

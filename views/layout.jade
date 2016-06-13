@@ -1,19 +1,18 @@
 doctype html
 html
-  head
-    meta(http-equiv='X-UA-Compatible', content='IE=Edge')
-    meta(charset='utf-8')
-    title #{title}
-    link(rel='stylesheet', type='text/css', href='/bower_components/bootstrap/dist/css/bootstrap.css')
-    link(rel='stylesheet', type='text/css', href='/bower_components/components-font-awesome/css/font-awesome.min.css')
-    link(rel='stylesheet', type='text/css', href='/bower_components/summernote/dist/summernote.css')
-    link(rel='stylesheet', type='text/css', href='/stylesheets/style.css')
-  body
-    block content
-    block scripts
-        script(src='/bower_components/jquery/dist/jquery.js')
-        script(src='/bower_components/bootstrap/dist/js/bootstrap.js')
-        script(src='/bower_components/summernote/dist/summernote.js')
-        script(src='/bower_components/summernote/lang/summernote-ko-KR.js')
-        script(src='/javascripts/main.js')
-           
+	head
+		meta(http-equiv='X-UA-Compatible', content='IE=Edge')
+		meta(charset='utf-8')
+		title #{title}
+		link(rel='stylesheet', type='text/css', href='/bower_components/bootstrap/dist/css/bootstrap.css')
+		link(rel='stylesheet', type='text/css', href='/bower_components/components-font-awesome/css/font-awesome.min.css')
+		link(rel='stylesheet', type='text/css', href='/bower_components/summernote/dist/summernote.css')
+		link(rel='stylesheet', type='text/css', href='/stylesheets/style.css')
+	body
+		block content
+		block scripts
+			script(src='/bower_components/jquery/dist/jquery.min.js')
+			script(src='/bower_components/bootstrap/dist/js/bootstrap.js')
+			script(src='/bower_components/summernote/dist/summernote.js')
+			script(src='/bower_components/summernote/lang/summernote-ko-KR.js')
+			script(src='/javascripts/main.js')
