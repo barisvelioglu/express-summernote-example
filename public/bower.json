@@ -13,7 +13,12 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap3-wysihtml5-bower": "~0.3.3",
-    "summernote": "^0.8.1"
-  }
+    "summernote": "^0.8.1",
+    "jquery": "^3.0.0",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "fontawesome#^4.6.3"
+  },
+  "homepage": "https://github.com/vingorius/express-summernote-example",
+  "description": "",
+  "main": ""
 }
